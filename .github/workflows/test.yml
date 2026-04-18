@@ -7,6 +7,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+  deploy:
+     runs-on: ubuntu-latest  
 
     steps:
       - uses: actions/checkout@v4
@@ -23,3 +25,6 @@ jobs:
       - name: Run Application
         run: mvn spring-boot:run &
              sleep 20
+
+      - name: Deploy (Trigger)
+        run: echo "Deploying application..."
