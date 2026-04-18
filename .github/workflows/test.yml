@@ -19,3 +19,7 @@ jobs:
 
       - name: Run Tests
         run: mvn clean test
+
+      - name: Run Application
+        run: mvn spring-boot:run &
+             sleep 20
