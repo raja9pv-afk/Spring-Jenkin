@@ -34,12 +34,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Remove this if not needed -->
-        <dependency>
-            <groupId>com.demo</groupId>
-            <artifactId>TestingDemo</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
     </dependencies>
 
